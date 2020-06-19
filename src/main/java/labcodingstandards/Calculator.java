@@ -1,17 +1,19 @@
-//
-//
-
+// Copyright (C) 2020
 package labcodingstandards;
 
 import java.util.Scanner;
 
 
 /**
- * @author
- *
+ * Taller de Ingeniería de Software 2 
+ * @author Grupo #3
+ * 
  */
-public class Calculator {	
-	//CHECKSTYLE:OFF
+public class Calculator {
+/**
+ * Método main para iniciar la ejecución de cualquier programa Java.
+ * @param args parámetro tomado de la linea de comandos o una fuente alterna.
+ */
 	public static void main(String[] args) {
 		//CHECKSTYLE:ON
 		Scanner reader = new Scanner(System.in);
@@ -19,7 +21,7 @@ public class Calculator {
         System.out.print("1. +\n2. -\n3. *\n4. /\nEnter an operator: ");
         
         char operator = reader.nextLine().charAt(0);
-        double First;
+        double first;
         double second;
         String input;
         
@@ -28,7 +30,7 @@ public class Calculator {
         	input = reader.nextLine();
         	
             try {
-            	First=Integer.parseInt(input);
+            	first=Integer.parseInt(input);
                 break;
             } catch (NumberFormatException e) {
                 System.out.println("Not valid!");
@@ -47,14 +49,21 @@ public class Calculator {
             }
         }
 
-        Calculator cal=new Calculator();
-        String result=cal.Operation(First,second,operator);
+        Calculator cal = new Calculator();
+        String result = cal.operation(first, second, operator);
 
         System.out.printf(result);
 		reader.close();
 	}
-
-	private String Operation(double first,double second,char operator) {
+	
+/**
+ * Método que devuelve un valor o un error en caso de que el operador sea incorrecto
+ * @param first valor para calular la suma o resta
+ * @param second valor para calular la suma o resta 
+ * @param operator valor para calular la suma o resta
+ * @return mensaje con el resultado final
+ */
+	private String operation(double first, double second, char operator) {
 		double result = 0;
 		switch(operator)
         {
