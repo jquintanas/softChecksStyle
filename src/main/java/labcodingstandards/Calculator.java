@@ -1,4 +1,6 @@
 // Copyright (C) 2020
+// All rights reserved
+
 package labcodingstandards;
 
 import java.util.Scanner;
