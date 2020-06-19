@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="/home/jquintana/Desktop/soft t1/CodingStandardsSI2/src/main/java/labcodingstandards/Calculator.java">
+<file name="C:\Users\Selecnia Bermello\Desktop\areaDeTrabajo\Coding Standars\softChecksStyle\src\main\java\labcodingstandards\Calculator.java">
 <error line="1" severity="error" message="Line does not match expected header line of &apos;// Copyright (C) 2020&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
 <error line="13" severity="error" message="Type Javadoc comment is missing @author tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="15" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
