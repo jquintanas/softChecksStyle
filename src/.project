@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>src</name>
+=======
+	<name>softChecksStyle_src</name>
+>>>>>>> 6bf579ae172038fed02a1c6d1ffca7cf66bd29e1
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,6 +14,7 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+<<<<<<< HEAD
 		<buildCommand>
 			<name>net.sf.eclipsecs.core.CheckstyleBuilder</name>
 			<arguments>
@@ -19,5 +24,10 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>net.sf.eclipsecs.core.CheckstyleNature</nature>
+=======
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> 6bf579ae172038fed02a1c6d1ffca7cf66bd29e1
 	</natures>
 </projectDescription>
